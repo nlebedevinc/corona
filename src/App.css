@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+
+#App {
+  max-width: 500px;
+  margin: auto;
+}
+
+#RelativeForm label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#RelativeForm span {
+  flex: 3;
+}
+
+#RelativeForm select {
+  flex: 4;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+#RelativeForm button {
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.agenda {
+  text-align: center;
+}
+
+.DiceRoll {
+  margin: 1rem 0;
+}
+
+.bar {
+  box-sizing: border-box;
+  padding: 0.25rem;
+}
+
+.bar.covid {
+  width: 100%;
+  color: white;
+  background: red;
+}
+
+.bar.flu {
+  width: 2.9%;
+  background: purple;
+}
+
+.bar .padding-adjust {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.bars {
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+#KillCount,
+#DiceRolls {
+  background: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #666;
+  margin: 4rem 0 2rem 0;
+}
+
+.big-link {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
