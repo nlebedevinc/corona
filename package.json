@@ -2,6 +2,7 @@
   "name": "corona",
   "version": "1.0.0",
   "private": true,
+  "author": "nikolay.lebedev<nlebedevme@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
